@@ -1,0 +1,19 @@
+<resources>
+    <!--原来的AppTheme-->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!--NavigationBar color,也就是底部导航栏,只能在API21以后设置
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        -->
+        <!--将状态栏的颜色调成透明-->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="AppTheme2" parent="Theme.AppCompat.DayNight">>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="当前版本"
+        android:summary="什么天气 V1.1"
+        android:key="current_version"
+        />
+    <Preference
+        android:key="email"
+        android:title="联系方式"
+        android:summary="chengkun.9317@gmail.com"
+        />
+
+    <Preference
+        android:title="数据来源"
+        android:summary="和风天气、中国天气网"/>
+
+    <Preference
+        android:title="素材来源"
+        android:summary="图片来源:dribbble.com，版权属于原作者"/>
+    <Preference
+        android:title="TODO"
+        android:summary="1.0版很粗糙，但是我会慢慢优化，加一些有意思的东西上来，欢迎持续关注^_^。下个版本会做的事：1.重构代码（现在的不能看= =）。 2.优化查找界面，想做成类似美团的城市查找界面。 3.增加城市列表，方便查看多个城市天气信息。 4.增加后台自动更新等功能。 "/>
+    <Preference
+        android:title="鸣谢"
+        android:summary="感谢以下的开源项目：Google Support Design, Volley, Gson, Glide"/>
+</PreferenceScreen>

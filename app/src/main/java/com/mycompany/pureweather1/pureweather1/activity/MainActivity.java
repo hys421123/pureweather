@@ -78,6 +78,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener
         , ViewPager.OnPageChangeListener,SwipeRefreshLayout.OnRefreshListener{
 // 285行有注释
 //  主函数注释提交  这次修改好几个  云端多次修改多处
+    //1115
 
     private CoordinatorLayout mCoordinatorLayout;
     private Toolbar mToolbar;
